@@ -62,3 +62,9 @@ def funktionsname(parameter1, para2, ...):
     Code 
     mehr Code 
     noch mehr Code
+
+
+def hello_world(name):
+    print("Hello World "+name)
+
+hello_world("Liam")
