@@ -56,3 +56,9 @@ while bedingung:
     print(i) #Ausgabe: 1 2 3 4
     i+=1
   
+
+# Funktionen
+def funktionsname(parameter1, para2, ...):
+    Code 
+    mehr Code 
+    noch mehr Code
