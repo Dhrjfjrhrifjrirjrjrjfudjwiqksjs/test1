@@ -68,3 +68,27 @@ def hello_world(name):
     print("Hello World "+name)
 
 hello_world("Liam")
+
+
+append 
+fügt ein Element am Ende der Liste hinzu
+
+insert
+fügt ein Element an einer bestimmten Position ein
+
+remove 
+entfernt das erste Vorkommen eines Elements aus der Liste 
+
+pop
+entfernt und gibt das Element an einer bestimmten Position zurück
+
+index
+gibt den index des ersten Vorkommens eines Elements zurück
+
+sort 
+ändert die Reihenfolge der Liste, sodass sie alphabetisch bzw. der Größe nach sortiert ist
+
+len
+gibt die Anzahl der Elemente in der Liste zurück
+
+orte.append("Mönchengladbach")
