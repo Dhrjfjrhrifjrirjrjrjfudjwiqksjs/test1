@@ -92,3 +92,22 @@ len
 gibt die Anzahl der Elemente in der Liste zurück
 
 orte.append("Mönchengladbach")
+
+csv dateien einfügen in Python
+
+import csv
+with open("/home/scts/Downloads/locations.csv") as csv_file:
+    data = csv.reader(csv_file)
+    next(data)
+
+
+    for row in data:
+        print(row)
+import csv
+with open("/home/scts/Downloads/locations.csv") as csv_file:
+    data = csv.reader(csv_file)
+    next(data)
+
+
+    for row in data:
+        print(row)
