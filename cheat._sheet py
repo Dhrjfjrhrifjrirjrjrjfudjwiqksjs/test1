@@ -99,6 +99,8 @@ import csv
 with open("/home/scts/Downloads/locations.csv") as csv_file:
     data = csv.reader(csv_file)
     next(data)
+    for row in data:
+        print(row)
 
 
     for row in data:
