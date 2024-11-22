@@ -1,0 +1,115 @@
+# Das hier ist ein Kommentar 
+
+# Werte Variablen zuweisen 
+string_variable = "Das ist ein String" #Ein String ist eine Zeichenkette 
+  integer_variable = 42 #Ein Integer ist eine Ganzzahl
+  float_variable = 47.11 #Ein Float ist eine Gleitkommazahl; Nachkommazahlen werden im US-Format angegeben (mit Punkt statt Komma)
+  
+  # Operatoren
+  plus = 1 + 1 #Zwei Zahlen werden addiert und in eine Variable gespeichert 
+  minus = 5 - 1 #Eine Zahl wird von einer anderen subtrahiert
+  mal = 5 * 5 #Zwei Zahlen werden miteinander multipliziert
+  geteilt = 10/2 #Zwei Zahlen werden miteinander dividiert 
+  modulo = 11%2 #Gibt den Rest aus; 11%2 ergibt 1. 2*5=10 Rest 1
+  zuweisung_addition += 1 #Verkürzte Schreibweise für: zuweisung_addition = zuweisung_addition + 1
+
+  # Listen, Tupel, Sets, Dictionaries
+  liste = ["Eintrag1", "Eintrag2", "Eintrag3"] #Einträge werden durch ein Komma getrennt, [] zeigen an, dass es eine Liste ist
+  tupel = (42, 47, 50) #Ein Tupel ist eine unveränderliche Liste 
+  set = {1, 2, 3, 1, 2, 3} #Ein Set enthält keine Doppelgänger; bei Ausgabe erhält man {1, 2, 3}
+  dictionary = {vorname: "Max", nachname: Mustermann", alter: 21}
+  #Ein Dictionary enthält immer eine Key: Value-Beziehung
+
+
+  # Verzweigungen und Schleifen 
+
+  #if-Verzweigung
+  if bedingung1:
+    block1 
+  elif bedingung2:
+    block2
+  else: #Wenn keine zuvor definierte Bedingung zutrifft wird der Else-Block ausgeführt
+    block3 
+
+  x = 42 
+  if x == 42:
+    print("Die Antwort auf alles!")
+  elif x== 47.11: #elif-Statements können beliebig oft gemacht werden 
+    print("Du bist dufte!")
+  else: #Der else-Block muss immer am Ende stehen 
+    print("Last, but not least")
+
+#for-Schleife 
+for var in elemente: 
+  anweisungen 
+
+for i in [7, 12, 3]:
+   print(i) #Ausgabe: 7 12 3
+
+
+#while-Schleife 
+while bedingung: 
+   anweisungen 
+
+  i = 1
+  while i<5: 
+    print(i) #Ausgabe: 1 2 3 4
+    i+=1
+  
+
+# Funktionen
+def funktionsname(parameter1, para2, ...):
+    Code 
+    mehr Code 
+    noch mehr Code
+
+
+def hello_world(name):
+    print("Hello World "+name)
+
+hello_world("Liam")
+
+
+append 
+fügt ein Element am Ende der Liste hinzu
+
+insert
+fügt ein Element an einer bestimmten Position ein
+
+remove 
+entfernt das erste Vorkommen eines Elements aus der Liste 
+
+pop
+entfernt und gibt das Element an einer bestimmten Position zurück
+
+index
+gibt den index des ersten Vorkommens eines Elements zurück
+
+sort 
+ändert die Reihenfolge der Liste, sodass sie alphabetisch bzw. der Größe nach sortiert ist
+
+len
+gibt die Anzahl der Elemente in der Liste zurück
+
+orte.append("Mönchengladbach")
+
+#csv dateien einfügen in Python
+
+import csv
+with open("/home/scts/Downloads/locations.csv") as csv_file:
+    data = csv.reader(csv_file)
+    next(data)
+    for row in data:
+        print(row)
+
+
+    for row in data:
+        print(row)
+import csv
+with open("/home/scts/Downloads/locations.csv") as csv_file:
+    data = csv.reader(csv_file)
+    next(data)
+
+
+    for row in data:
+        print(row)
