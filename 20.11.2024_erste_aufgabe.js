@@ -26,4 +26,24 @@ Nachname = "Alt"
 console.log(Vorname, Nachname)
 
 
-typeof let d = 10 
+let y = 23 
+let d = typeof y
+
+console.log(d)
+
+
+let l = 623874
+let e = 62376
+let te = 0
+
+te = l
+l = e 
+e = te 
+
+console.log(l,e)
+
+
+const pl = 2.31
+let ll = 10
+console.log(pl + ll)
+
