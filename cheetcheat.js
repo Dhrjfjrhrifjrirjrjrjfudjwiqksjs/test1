@@ -7,3 +7,6 @@ console.log(y * x)
 
 Operatoren Mathe: +, -, *, /, %, Math.floo(), Math.pow()
 Logische Operatoren: ==, !=, <, >, >=, <=, ===, !==
+
+
+  Listen
