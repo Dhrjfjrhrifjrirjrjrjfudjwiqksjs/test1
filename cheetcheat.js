@@ -12,7 +12,7 @@ Logische Operatoren: ==, !=, <, >, >=, <=, ===, !==
   Listen
 
 let x =[2,3,"Hello"]
-console.log(x[0]) = 2 // so kann man einen Wert aussuchen der ausgegeben werden soll allerdings auch mit Angabe des Index 
+console.log(x[0]) = 2 // so kann man einen Wert aussuchen der ausgegeben werden soll allerdings mit Angabe des Index 
 x.push(3) = [2,3,"Hello",3] // fügt einen wert ans ende der Liste
 x.pop() = "Hello",x = [2,3]
 x.shift() = 2,x = [3,"Hello"] // nimmt einen Wert aus der Liste heraus man muss jedoch den Index angeben
