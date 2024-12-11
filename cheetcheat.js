@@ -54,6 +54,14 @@ Wann welche Schleife verwenden
 - for...in: Wenn du die Eigenschaften eines Objekts durchlaufen wills. 
 
 
+for (Initialisierung;Bedingung;Iteration){
+  //Code, der wiederholt ausgeführt wird 
+}
+Beispiel
+for (let i = 0;i < 5; i++){
+  console.log("Interation",i);
+}
+
 
 
 
