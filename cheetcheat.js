@@ -72,6 +72,33 @@ while (i < 5){
   i++;
 }
 
+do{
+  //Code, der mindestens einmal ausgeführt wird 
+} while (Bedingung);
+Beispiel 
+let i = 0;
+do{
+  console.log("Iteration";i);
+  i++;
+}while (i < 5);
+
+for (let element of iterable){
+  //Code, der für jedes Element ausgeführt wird 
+}
+Beispiel
+let obst = ["Apfel","Banane","Kirsche"]
+for (let frucht of obst){
+  console.log(frucht);
+}
+
+for (let key in object){
+  //Code, der für jede Eigenschaft ausgeführt wird
+}
+Beispiel
+let person = {name: "Max",alter:25,Stadt:"Berlin"};
+for(let eigenschaft in person){
+  console.log(eigenschaft, ":", person[eigenschaft]);
+  }
 
 
 
