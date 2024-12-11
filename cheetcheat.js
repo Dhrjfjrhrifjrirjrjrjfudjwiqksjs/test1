@@ -34,7 +34,7 @@ obj.address.city
 Object.keys(obj)
 Object.values(obj)
 
-if_schleife
+if_Bedingung
 
 //Grundstruktur
 if (Bedingung){
@@ -45,6 +45,13 @@ if (Bedingung){
   //Code ausführen, wenn keine der Bedingung wahr ist
 }
 
+Wann welche Schleife verwenden
+
+- for: Wenn du eine bekannte Anzahl von Iterationen hast.
+- while: Wenn du eine Bedingung hast, die erfüllt sein muss, aber die Iterationsanzahl unklar ist.
+- do...while: Wenn du sicherstellen musst, dass der Code mindestens einmal ausgeführt wird.
+- for...of: Wenn du über Elemente eines Arrays oder Strings interierst
+- for...in: Wenn du die Eigenschaften eines Objekts durchlaufen wills. 
 
 
 
