@@ -34,6 +34,17 @@ obj.address.city
 Object.keys(obj)
 Object.values(obj)
 
+if_schleife
+
+//Grundstruktur
+if (Bedingung){
+  //Code ausführen, wenn Bedingung wahr ist
+} else if (andereBedingung){
+  //Code ausführen, wenn andereBedingung wahr ist
+} else { 
+  //Code ausführen, wenn keine der Bedingung wahr ist
+}
+
 
 
 
