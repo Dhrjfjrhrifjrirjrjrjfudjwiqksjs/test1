@@ -202,12 +202,15 @@ for(let eigenschaft in person){
   console.log(eigenschaft, ":", person[eigenschaft]);
   }
 
+Funktionen
 
 function name(parameter1,parameter2,parameter3){
   //code, der ausgeführt werden soll
 }
 
-
+function greet(name){
+  console.log("Hallo," + name+ "!");
+}
 
 
 
