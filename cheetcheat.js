@@ -203,6 +203,13 @@ for(let eigenschaft in person){
   }
 
 
+function name(parameter1,parameter2,parameter3){
+  //code, der ausgeführt werden soll
+}
+
+
+
+
 
 
 
