@@ -1,0 +1,81 @@
+<!--Ein HTML-Dokument besteht aus folgenden Hauplelementen--> 
+
+1 <!DOCTYPE html>
+<!--Zeigt dem Browser an, dass es sich um ein HTML5-Dokument handelt.-->
+2 <html>
+<!--Der Hauptcontainer für den gesamten Inhalt der Webseite.-->
+3 <head>
+<!--Enthält Meta-Informationen über die Webseite (zB Titel, Zeichenstz, Links zu CSS-Dateien)-->
+<!--kein sichtbarer Inhalt für den Benutzer-->
+4 <body>
+<!--Enthält den sictbaren Inhalt der Webseite wie Texte, Bilder, Links,-->
+
+  Wichtige Textelemente und ihre Bedeutung
+
+  1 Überschriften (<h1> bis <h6>):
+    <!--Strukturieren Inhalte von sehr wichtig (<h1>) bis weniger wichtig (<h6>)-->
+  2 Absätze (<p>):
+    <!--Dienen zur Darstellung von Textblöcken-->
+  3 Hervorhebungen:
+    Fettgedruckt (<strong>):
+    Kursiv (<em>)
+  4 Inline-Text (<span>):
+    <!--Zum Formatieren einzelner Wörter oder Textabschnitte-->
+
+Links
+    
+    <!--Sie werden mit dem <a>Tag (Anker) erstellt-->
+    <!--Links (Verknüpfungen)ermöglichen es, von einer Webseite zu einer anderen zu springen oder innerhalb derselben Seite zu navigieren-->
+    <a href="URL">Linktext</a>
+    <!--href (Hyperlink Reference):Gibt die Zieladdresse an (zB eine Webseite oder Datei)-->
+    <!--Linktext: Der Text, auf den der Benutzer klickt-->
+
+
+    Der <img>Tag
+    <!--Der <img>Tag wird verwendet, um Bilder in eine Webseite einzufügen-->
+    <!--Selbstschliessender Tag:<img> benötigt keinen Schlusstag-->
+    <img src="URL" alt="Beschreibung">
+    <!--src (Source): Gibt die Dateiquelle des Bildes an (zB URL oder Dateipfad )-->
+    <!--alt(Alternative Text): Eine kurze Beschreibung des Bildes. Wird angezeigt, wenn das Bild nicht geladen werden kann-->
+
+    Tabellen in Html
+
+    <!--Tabellen werden verwendet, um Daten in Zeilen und Spalten darzustellen-->
+    <!--Ideal für Informationen wie Zeitpläne, Preislisten oder Statistiken-->
+    <table>:Startet die Tabelle
+    <tr>(Table Row): Erstellt eine Zeile 
+    <th>(Table Header): Markiert eine Überschrift (fettgedruckt, zentriert)
+    <td>(Table Data): Definiert eine Zelle für Daten 
+
+      <table>
+        <tr>
+          <th>Überschrift 1</th>
+          <th>Überschrift 2</th>
+        </tr>
+        <tr>
+            <td>Zelle 1</td>
+            <td>Zelle 2</td>
+        </tr>
+      </table>
+
+      Formulare in Html
+
+      <form>: Der Container für das gesamte Formular
+      Textfelder (<input type="text">)
+      Psswörter (<input type="password">)
+      Checkboxen (<input type="checkbox">)
+      Dropdown-Menü (<select>)
+      Buttons (<button>)
+
+
+        <form action = "submit.php" method = "POST">
+          <label for = "email">E-Mail:</label>label>
+          <input type = "email" id = "email" name = "email"><br>
+
+          < label for = "passwort">Passwort:</label>
+          <input type = "password" id = "passwort" name = "passwort" ><br><br>
+
+          <label><input type = "checkbox" name = "agb"> Ich akzeptiere die AGB</label>label><br>
+
+          button type = "submit"> Registrieren >/button
+        </form>
