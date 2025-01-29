@@ -79,3 +79,48 @@ Links
 
           button type = "submit"> Registrieren >/button
         </form>
+Wie verwendet man js in html?
+        <script>Tag:
+              -wie eine JS Datei im HTML Code
+              - Alles zwischen den Tags wird als JS code ausgeführt
+              - Datei mit Javacode einbinden
+
+Inline-Scripting
+          -Verwendung von JS Code in HTML-Tags
+          - Kurzer Code der Funktionalität
+          Beispiel Button:
+          <button onclick = "alert("Hallo Welt!")"> Klick mich! </button>
+          <button onclick = "zeigeNachricht("Hello")">Klick mich</button>
+          <script>
+            function zeigeNachricht(nachricht){
+              alert(nachricht)
+            }
+            </script>
+
+  Inhalte aus HTML auslesen
+        document-Methode
+          -mit einer ID
+          -Mit einem Tag:
+          -Mit einem Klassennamen:
+          -Rückgabewert ist ein Objekt mit allen Parametern
+          -Falls mehrere Elemente vorhanden sind, wird eine Liste erstellt
+
+  Inhalte aus HTML auslesen
+        -Objekt auslesen
+        -Keys sind nach Parametern benannt
+
+        const element = document.getElementById("meine ID");
+
+
+  HTML verändern
+
+        Inhalt verändern 
+        document.getElementById("mein Text").innerText = "Hallo Welt!"
+        Parameter ändern
+        const bild = document.getElementById(meinBild)
+        bild.src = "neuesBild.png"
+        bild.alt = "Neues Logo"
+        Neue Elemente erstellen
+        const neuerButton = document.createElement("button")
+        neuerButton.innerText = "Klickmich!"
+        document.body.appendChild(neuer Button)
