@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title id = "Karl">Meine erste Website</title>
+    </head>
+    <body>
+        <input type = "text" id = "eingabe">
+        <button onclick = "zeigeText()"></button>
+        <p id = "anzeige"></p>
+    </body>
+    <script>
+        function zeigeText(){
+            let text = document.getElementById("eingabe").value;
+            console.log(text)
+            document.getElementById("anzeige").innerHTML = text 
+            console.log(document.getElementById("anzeige").innerHTML)
+        }
+        </script>
+</html>
