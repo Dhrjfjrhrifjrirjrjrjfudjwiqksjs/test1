@@ -1,0 +1,24 @@
+<head>
+<title>IHRE NOTIZEN</title>
+<h1>IHRE NOTIZEN</h1>
+<body>Notizen</body><input type = "text" id = "eingabe"><br>
+<body>Notizen</body><input type = "text" id = "eingabe"><br>
+<body>Notizen</body><input type = "text" id = "eingabe"><br>
+<body>Speichern</body><button><br>
+<body>Löschen</body><button>
+
+    <input type = "text" id = "eingabe">
+    <button onclick = "zeigeText()"></button>
+    <p id = "anzeige"></p>
+
+<script>
+
+function zeigeText(){
+            let text = document.getElementById("eingabe").value;
+            console.log(text)
+            document.getElementById("anzeige").innerHTML = text 
+            console.log(document.getElementById("anzeige").innerHTML)
+        }
+
+
+
