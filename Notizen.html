@@ -1,24 +1,35 @@
+
+
 <head>
 <title>IHRE NOTIZEN</title>
 <h1>IHRE NOTIZEN</h1>
-<body>Notizen</body><input type = "text" id = "eingabe"><br>
-<body>Notizen</body><input type = "text" id = "eingabe"><br>
-<body>Notizen</body><input type = "text" id = "eingabe"><br>
-<body>Speichern</body><button><br>
-<body>Löschen</body><button>
+<label>Notizen</label><p ></p>type = "text" id = "eingabe"><br>
+<textarea> </textarea>
 
-    <input type = "text" id = "eingabe">
-    <button onclick = "zeigeText()"></button>
+<button onclick = "löscheText()">Löschen</button>
+<p id="Notizblock"></p> 
+
+
+  <button onclick = "zeigeText()">Speichern</button>
     <p id = "anzeige"></p>
 
 <script>
 
+let Speicherung = []
 function zeigeText(){
-            let text = document.getElementById("eingabe").value;
+           let text = document.getElementById("anzeige").value;
             console.log(text)
-            document.getElementById("anzeige").innerHTML = text 
+            Speicherung.push(text)
+            const schnellspeicherung = document.createElement("P")
+            schnellspeicherung.innertext = 
             console.log(document.getElementById("anzeige").innerHTML)
-        }
+       }
 
+
+function löscheText(){
+    let notiz = document.getElementById("Notizblock").value;
+    console.log
+}
+        
 
 
