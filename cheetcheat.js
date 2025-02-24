@@ -99,12 +99,6 @@ let person = {name: "Max",alter:25,Stadt:"Berlin"};
 for(let eigenschaft in person){
   console.log(eigenschaft, ":", person[eigenschaft]);
   }
-Hello world
-let x = 5
-let y ="23"
-//Eine Zeilen Kommentar
-/* Bis geschlossen */
-console.log(y * x)
 
 Funktionen
 
