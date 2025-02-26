@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> To-Do-Liste </title>
+        <h1> To-Do-Liste </h1>
+        <input type = "Geben Sie was ein">
+        <button onclick="speichereText()"> Speichern </button>
+        <p id = "anzeige"></p>
+
+
+        <script>
+
+let Speicherung = []
+function speichereText(){
+           let text = document.getElementById("anzeige").value;
+            console.log(text)
+            Speicherung.push(text)
+            const schnellspeicherung = document.createElement("P")
+            schnellspeicherung.innerText = text;
+            document.body.appendChild(schnellspeicherung)
+            console.log(Speicherung.length)
+       //     console.log(document.getElementById("anzeige").innerHTML)
+           // console.log(Speicherung)
+       }
+
+</script>
