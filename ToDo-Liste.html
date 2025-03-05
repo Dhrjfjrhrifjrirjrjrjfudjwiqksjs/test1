@@ -23,3 +23,46 @@ function speichereText(){
        }
 
 </script>
+
+__________________________________________________________________________________________________
+
+
+        <html>
+    <head>
+        <title> To-Do-Liste </title>
+        <h1> To-Do-Liste </h1>
+        <input type = "text" id = "input" placeholder = "Geben Sie was ein">
+        <button onclick="speichereText()"> Speichern </button>
+        <p id = "anzeige"></p>
+
+        <button onclick = "löscheText()"> Löschen </button>
+        <p id="Notizblock"></p> 
+
+
+        <script>
+
+Button_erstellung_für_einzelne_eingaben = documen
+    
+}
+
+let Speicherung = []
+function speichereText(){
+           let text = document.getElementById("input").value;
+            console.log(text.value)
+            Speicherung.push(text)
+            const schnellspeicherung = document.createElement("P")
+            schnellspeicherung.innerText = text;
+            document.body.appendChild(schnellspeicherung)
+            console.log(Speicherung.length)
+       //     console.log(document.getElementById("anzeige").innerHTML)
+           // console.log(Speicherung)
+       }
+
+       function löscheText(){
+    let notiz = document.getElementById("Notizblock").value;
+    console.log(text.replace("gelöscht"))
+}
+</script>
+
+
+
